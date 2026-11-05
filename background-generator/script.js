@@ -7,8 +7,6 @@ var button = document.getElementById("randomizer");
 setGradient();
 
 function randomizeColor() {
-	let color = "#"
-
 	color1.value = '#' + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0');
 	color2.value = '#' + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0');
 
