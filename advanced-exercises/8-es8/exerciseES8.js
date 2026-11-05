@@ -34,4 +34,4 @@ let obj = {
 'my name is Rudolf the raindeer'
 
 let sentence = '';
-const objMap = Object.entries(obj).forEach(key => sentence += key + obj[key]);
+const objMap = Object.entries(obj).forEach(key => sentence += key[0] + key[1]);
